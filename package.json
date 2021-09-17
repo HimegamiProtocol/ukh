@@ -1,0 +1,23 @@
+{
+  "name": "UKH",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "@openzeppelin/truffle-upgrades": "^1.7.0",
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.4.1",
+    "dotenv": "^10.0.0"
+  }
+}
